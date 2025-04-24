@@ -1,5 +1,9 @@
 chd apr 24 - 112 pm 
 
+
+min%EF%B9%96   %EF%B9%96   has to be replaced with ?
+
+
 amplify deployment location:  https://us-east-1.console.aws.amazon.com/amplify/apps/d1glcyiqjyrmo6/branches/main/deployments
 
 remove this whole shit ?
