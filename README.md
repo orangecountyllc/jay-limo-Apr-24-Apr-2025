@@ -1,3 +1,5 @@
+chd apr 24 - 112 pm 
+
 amplify deployment location:  https://us-east-1.console.aws.amazon.com/amplify/apps/d1glcyiqjyrmo6/branches/main/deployments
 
 remove this whole shit ?

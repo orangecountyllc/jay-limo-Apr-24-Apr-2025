@@ -1,8 +1,11 @@
 <!doctype html>
 <html lang="en-US">
-  <head> <script>
+  <head> 
+    
+    
+    <!-- <script>
 var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
-</script>
+</script> -->
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +13,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 
     
     <script src="../assets/themes/littles/lib/ScrollSmoother.min.js"></script>
+
     <script src="../assets/themes/littles/lib/gsap.min.js"></script>
     <script src="../assets/themes/littles/lib/ScrollTrigger.min.js"></script>
 
@@ -40,7 +44,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 	<meta property="og:site_name" content="Little&#039;s Chauffeur Drive" />
 	<meta property="article:publisher" content="https://www.facebook.com/LittlesChauffeurDrive/" />
 	<meta property="article:modified_time" content="2024-05-31T10:18:51+00:00" />
-	<meta property="og:image" content="../assets/uploads/2023/07/littles-4.jpg" />
+	<!-- <meta property="og:image" content="../assets/uploads/2023/07/littles-4.jpg" /> -->
 	<meta property="og:image:width" content="1920" />
 	<meta property="og:image:height" content="1080" />
 	<meta property="og:image:type" content="image/jpeg" />
@@ -87,7 +91,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
         
     <div id="app">
       <a class="sr-only focus:not-sr-only" href="#smooth-wrapper">
-  Skip to content
+  Skip to content-2
 </a>
 
 <header class="site-header fixed top-30 w-screen left-0">
@@ -779,10 +783,10 @@ Contact
 
 	
 
-	<link rel='stylesheet' id='dashicons-css' href='../assets/css/dashicons.min%EF%B9%96ver=6.8.css' media='all' />
-<link rel='stylesheet' id='gform_basic-css' href='../assets/plugins/gravityforms/assets/css/dist/basic.min%EF%B9%96ver=2.9.6.1.css' media='all' />
-<link rel='stylesheet' id='gform_theme_components-css' href='../assets/plugins/gravityforms/assets/css/dist/theme-components.min%EF%B9%96ver=2.9.6.1.css' media='all' />
-<link rel='stylesheet' id='gform_theme-css' href='../assets/plugins/gravityforms/assets/css/dist/theme.min%EF%B9%96ver=2.9.6.1.css' media='all' />
+	<link rel='stylesheet' id='dashicons-css' href='../assets/css/dashicons.min-new.css' media='all' />
+<!-- <link rel='stylesheet' id='gform_basic-css' href='../assets/plugins/gravityforms/assets/css/dist/basic.min%EF%B9%96ver=2.9.6.1.css' media='all' /> -->
+<!-- <link rel='stylesheet' id='gform_theme_components-css' href='../assets/plugins/gravityforms/assets/css/dist/theme-components.min%EF%B9%96ver=2.9.6.1.css' media='all' /> -->
+<!-- <link rel='stylesheet' id='gform_theme-css' href='../assets/plugins/gravityforms/assets/css/dist/theme.min%EF%B9%96ver=2.9.6.1.css' media='all' /> -->
 <script src="../assets/plugins/genesis-blocks/dist/assets/js/dismiss-new.js" id="genesis-blocks-dismiss-js-js"></script>
 <script id="app/0-js-before">
 (()=>{"use strict";var e,r={},o={};function t(e){var n=o[e];if(void 0!==n)return n.exports;var a=o[e]={exports:{}};return r[e](a,a.exports,t),a.exports}t.m=r,e=[],t.O=(r,o,n,a)=>{if(!o){var i=1/0;for(u=0;u<e.length;u++){o=e[u][0],n=e[u][1],a=e[u][2];for(var l=!0,s=0;s<o.length;s++)(!1&a||i>=a)&&Object.keys(t.O).every((e=>t.O[e](o[s])))?o.splice(s--,1):(l=!1,a<i&&(i=a));if(l){e.splice(u--,1);var f=n();void 0!==f&&(r=f)}}return r}a=a||0;for(var u=e.length;u>0&&e[u-1][2]>a;u--)e[u]=e[u-1];e[u]=[o,n,a]},t.d=(e,r)=>{for(var o in r)t.o(r,o)&&!t.o(e,o)&&Object.defineProperty(e,o,{enumerable:!0,get:r[o]})},t.o=(e,r)=>Object.prototype.hasOwnProperty.call(e,r),t.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},(()=>{var e={666:0};t.O.j=r=>0===e[r];var r=(r,o)=>{var n,a,i=o[0],l=o[1],s=o[2],f=0;if(i.some((r=>0!==e[r]))){for(n in l)t.o(l,n)&&(t.m[n]=l[n]);if(s)var u=s(t)}for(r&&r(o);f<i.length;f++)a=i[f],t.o(e,a)&&e[a]&&e[a][0](),e[a]=0;return t.O(u)},o=self.webpackChunk_roots_bud_sage_sage=self.webpackChunk_roots_bud_sage_sage||[];o.forEach(r.bind(null,0)),o.push=r.bind(null,o.push.bind(o))})()})();
