@@ -61,6 +61,9 @@ udpate
 
 > update teh google tags. 
 
+> fix the font family of logo. 
+
+> when scrolling down why the logo stays stuck , it shoudl disappear. 
 
 REPLACE THESE WORDS 
 
