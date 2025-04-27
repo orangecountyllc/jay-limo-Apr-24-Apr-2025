@@ -87,3 +87,11 @@ Replace it with >
 Jay’s Limo - Delivering top-tier, personalized chauffeured experiences across DC, Virginia, and Maryland.
 
 > Modify the language in privacy page on grok. 
+
+
+> change these images naems : 
+2023/09/2-littles.jpg
+
+
+> in touring page change langaue for u 
+
