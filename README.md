@@ -78,3 +78,12 @@ Little&#039;s
 car pics 
 https://www.carfax.com/vehicle/1GYS9ERL9SR168365
 
+
+
+Little&#039;s Chauffeur Drive - Over 55 years delivering the highest quality service across Scotland, UK &amp; Worldwide
+
+Replace it with > 
+
+Jay’s Limo - Delivering top-tier, personalized chauffeured experiences across DC, Virginia, and Maryland.
+
+> Modify the language in privacy page on grok. 
